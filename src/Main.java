@@ -85,5 +85,16 @@ public class Main {
         System.out.println(frog);
 // ======= End Task 5 =========
 
+// ======= Begin Task 6 =======
+        var firstBoxerWeight = 78.2;
+        System.out.println("\n" + "Вес первого боксера = " + c1 + firstBoxerWeight + c0 + " кг.");
+
+        var secondBoxerWeight = 82.7;
+        System.out.println("Вес второго боксера = " + c1 + secondBoxerWeight + c0 + " кг.");
+
+        var weightDifference = (secondBoxerWeight - firstBoxerWeight);
+        System.out.println("Разница в весе боксеров = " + c1 + weightDifference + c0 + " кг.");
+// ======= End Task 6 =========
+
     }
 }
