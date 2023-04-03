@@ -21,11 +21,11 @@ public class Main {
         // В моей статье содержится "paper" символов.
 
         //Введем новые переменные типа String, которым присвоим значение переменных синим цветом
-        String coloredDog = (char)27 + "[34m" + dog + (char)27 + "[0m";
+        String coloredDog = (char) 27 + "[34m" + dog + (char) 27 + "[0m";
         // В новой перменной типа String (строка ) вносим значение переменной dog синим цветом
         // изменили цвет вывода на синий "(char)27 + "[34m" и вернули цвет по умолчанию (char)27 + "[0m"
-        String coloredCat = (char)27 + "[34m" + cat + (char)27 + "[0m"; // То же самое для cat
-        String coloredPaper = (char)27 + "[34m" + paper + (char)27 + "[0m"; // То же самое для paper
+        String coloredCat = (char) 27 + "[34m" + cat + (char) 27 + "[0m"; // То же самое для cat
+        String coloredPaper = (char) 27 + "[34m" + paper + (char) 27 + "[0m"; // То же самое для paper
 
         System.out.println("\n" + taskScreen + taskCount + ".2");
 
@@ -35,9 +35,9 @@ public class Main {
         System.out.println("There is " + coloredPaper + " symbols in my paper");
 // ======= End Task 1 =========
 
-        var c0 = (char)27 + "[0m";
-        var c1 = (char)27 + "[34m";
-        var c2 = (char)27 + "[31m";
+        var c0 = (char) 27 + "[0m";
+        var c1 = (char) 27 + "[34m";
+        var c2 = (char) 27 + "[31m";
 
 // ======= Begin Task 2 =======
         taskCount++;
@@ -77,10 +77,10 @@ public class Main {
         System.out.println(friend);
 
         friend += 2; // Step 2
-        System.out.println(c1 + friend + c0 );
+        System.out.println(c1 + friend + c0);
 
         friend /= 7; // Step 3
-        System.out.println(c2 + friend + c0 );
+        System.out.println(c2 + friend + c0);
 // ======= End Task 4 =========
 
 // ======= Begin Task 5 =======
@@ -91,10 +91,10 @@ public class Main {
         System.out.println(frog);
 
         frog *= 10; // Step 2
-        System.out.println(c1 + frog + c0 );
+        System.out.println(c1 + frog + c0);
 
         frog /= 3.5; // Step 3
-        System.out.println(c2 + frog + c0 );
+        System.out.println(c2 + frog + c0);
 
         frog += 4; // Step 4
         System.out.println(frog);
@@ -137,14 +137,14 @@ public class Main {
 
         var totalManHour = 640;
         var oneEmployeeNorm = 8;
-        var totalEmployee = totalManHour/oneEmployeeNorm;
+        var totalEmployee = totalManHour / oneEmployeeNorm;
 
         System.out.println("Всего работников в компании — " + c1 + totalEmployee + c0 + " человек.");
 
-        System.out.println("\n" + taskScreen + taskCount + ".1");
+        System.out.println("\n" + taskScreen + taskCount + ".2");
 
         totalEmployee += 94;
-        var manHour = totalManHour/totalEmployee;
+        var manHour = totalManHour / totalEmployee;
         var s1 = "Если в компании работает ";
         var s2 = " человек, то всего ";
         var s3 = " часа работы может быть поделено между сотрудниками.";
