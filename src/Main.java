@@ -32,8 +32,9 @@ public class Main {
         System.out.println("There is " + coloredPaper + " symbols in my paper");
         // ======= End Task 1 =========
 
+        var c0 = (char)27 + "[0m";
         var c1 = (char)27 + "[34m";
-        var c2 = (char)27 + "[0m";
+        var c2 = (char)27 + "[35m";
 
         // ======= Begin Task 2 =======
 
@@ -43,9 +44,9 @@ public class Main {
         paper = paper + 4;
 
         // выведем в консоль значения переменных
-        System.out.println("\n" + "Our dog weighs " + c1 + dog + c2 + " kg.");
-        System.out.println("Our dog weighs " + c1 + cat + c2 + " kg.");
-        System.out.println("There is " + c1 + paper + c2 + " symbols in my paper");
+        System.out.println("\n" + "Our dog weighs " + c1 + dog + c0 + " kg.");
+        System.out.println("Our dog weighs " + c1 + cat + c0 + " kg.");
+        System.out.println("There is " + c1 + paper + c0 + " symbols in my paper");
 
         // ======= End Task 2 =========
 
@@ -57,10 +58,23 @@ public class Main {
         paper -= 7639; // I'm'sorry, но так привычнее
 
         // выведем в консоль значения переменных
-        System.out.println("\n" + "Our dog weighs " + c1 + dog + c2 + " kg.");
-        System.out.println("Our dog weighs " + c1 + cat + c2 + " kg.");
-        System.out.println("There is " + c1 + paper + c2 + " symbols in my paper");
+        System.out.println("\n" + "Our dog weighs " + c1 + dog + c0 + " kg.");
+        System.out.println("Our dog weighs " + c1 + cat + c0 + " kg.");
+        System.out.println("There is " + c1 + paper + c0 + " symbols in my paper");
 
         // ======= End Task 3 =========
+
+        // ======= Begin Task 4 =======
+
+        var friend = 19; // Step 1
+        System.out.println("\n" + friend);
+
+        friend += 2; // Step 2
+        System.out.println(c1 + friend + c0 );
+
+        friend /= 7; // Step 3
+        System.out.println(c2 + friend + c0 );
+
+        // ======= End Task 4 =========
     }
 }
