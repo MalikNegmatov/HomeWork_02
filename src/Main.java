@@ -32,5 +32,35 @@ public class Main {
         System.out.println("There is " + coloredPaper + " symbols in my paper");
         // ======= End Task 1 =========
 
+        var c1 = (char)27 + "[34m";
+        var c2 = (char)27 + "[0m";
+
+        // ======= Begin Task 2 =======
+
+        // Прибавим к каждой переменной 4
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+
+        // выведем в консоль значения переменных
+        System.out.println("\n" + "Our dog weighs " + c1 + dog + c2 + " kg.");
+        System.out.println("Our dog weighs " + c1 + cat + c2 + " kg.");
+        System.out.println("There is " + c1 + paper + c2 + " symbols in my paper");
+
+        // ======= End Task 2 =========
+
+        // ======= Begin Task 3 =======
+
+        // Вносим изменения в каждую переменную
+        dog -= 3.5;
+        cat -= 1.6;
+        paper -= 7639; // I'm'sorry, но так привычнее
+
+        // выведем в консоль значения переменных
+        System.out.println("\n" + "Our dog weighs " + c1 + dog + c2 + " kg.");
+        System.out.println("Our dog weighs " + c1 + cat + c2 + " kg.");
+        System.out.println("There is " + c1 + paper + c2 + " symbols in my paper");
+
+        // ======= End Task 3 =========
     }
 }
