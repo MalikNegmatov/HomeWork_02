@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        // ======= Begin Task 1 =========
+// ======= Begin Task 1 =========
         var dog = 8.0;  // Вводим новую переменную из кольца действительных чисел dog.
                         // Тип переменной dog задан присвоением значения 8.0.
 
@@ -30,14 +30,13 @@ public class Main {
         System.out.println("\n" + "Our dog weighs " + coloredDog + " kg.");
         System.out.println("Our cat weighs " + coloredCat + " kg.");
         System.out.println("There is " + coloredPaper + " symbols in my paper");
-        // ======= End Task 1 =========
+// ======= End Task 1 =========
 
         var c0 = (char)27 + "[0m";
         var c1 = (char)27 + "[34m";
-        var c2 = (char)27 + "[35m";
+        var c2 = (char)27 + "[31m";
 
-        // ======= Begin Task 2 =======
-
+// ======= Begin Task 2 =======
         // Прибавим к каждой переменной 4
         dog = dog + 4;
         cat = cat + 4;
@@ -47,11 +46,9 @@ public class Main {
         System.out.println("\n" + "Our dog weighs " + c1 + dog + c0 + " kg.");
         System.out.println("Our dog weighs " + c1 + cat + c0 + " kg.");
         System.out.println("There is " + c1 + paper + c0 + " symbols in my paper");
-
         // ======= End Task 2 =========
 
-        // ======= Begin Task 3 =======
-
+// ======= Begin Task 3 =======
         // Вносим изменения в каждую переменную
         dog -= 3.5;
         cat -= 1.6;
@@ -61,11 +58,9 @@ public class Main {
         System.out.println("\n" + "Our dog weighs " + c1 + dog + c0 + " kg.");
         System.out.println("Our dog weighs " + c1 + cat + c0 + " kg.");
         System.out.println("There is " + c1 + paper + c0 + " symbols in my paper");
-
         // ======= End Task 3 =========
 
-        // ======= Begin Task 4 =======
-
+// ======= Begin Task 4 =======
         var friend = 19; // Step 1
         System.out.println("\n" + friend);
 
@@ -74,7 +69,21 @@ public class Main {
 
         friend /= 7; // Step 3
         System.out.println(c2 + friend + c0 );
+// ======= End Task 4 =========
 
-        // ======= End Task 4 =========
+// ======= Begin Task 5 =======
+        var frog = 3.5; // Step 1
+        System.out.println("\n" + frog);
+
+        frog *= 10; // Step 2
+        System.out.println(c1 + frog + c0 );
+
+        frog /= 3.5; // Step 3
+        System.out.println(c2 + frog + c0 );
+
+        frog += 4; // Step 4
+        System.out.println(frog);
+// ======= End Task 5 =========
+
     }
 }
