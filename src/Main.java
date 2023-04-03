@@ -96,5 +96,18 @@ public class Main {
         System.out.println("Разница в весе боксеров = " + c1 + weightDifference + c0 + " кг.");
 // ======= End Task 6 =========
 
+// ======= Begin Task 7 =======
+        var boxerOneWeight = 78.2;
+        System.out.println("\n" + "Вес первого боксера = " + c1 + boxerOneWeight + c0 + " кг.");
+
+        var boxerTwoWeight = 82.7;
+        System.out.println("Вес второго боксера = " + c1 + boxerTwoWeight + c0 + " кг.");
+
+        weightDifference = (boxerTwoWeight - boxerOneWeight);
+        System.out.println("1-й способ: Разница в весе боксеров = " + c1 + weightDifference + c0 + " кг.");
+
+        weightDifference = (boxerTwoWeight % boxerOneWeight);
+        System.out.println("2-й способ: Разница в весе боксеров = " + c1 + weightDifference + c0 + " кг.");
+// ======= End Task 7 =========
     }
 }
