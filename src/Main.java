@@ -109,5 +109,22 @@ public class Main {
         weightDifference = (boxerTwoWeight % boxerOneWeight);
         System.out.println("2-й способ: Разница в весе боксеров = " + c1 + weightDifference + c0 + " кг.");
 // ======= End Task 7 =========
+
+// ======= Begin Task 8 =======
+        var totalManHour = 640;
+        var oneEmployeeNorm = 8;
+        var totalEmployee = totalManHour/oneEmployeeNorm;
+
+        System.out.println("\n"+"Всего работников в компании — " + c1 + totalEmployee + c0 + " человек.");
+
+        totalEmployee += 94;
+        var manHour = totalManHour/totalEmployee;
+        var s1 = "Если в компании работает ";
+        var s2 = " человек, то всего ";
+        var s3 = " часа работы может быть поделено между сотрудниками.";
+        System.out.println("\n"+ s1 + c1 + totalEmployee + c0 + s2 + c1 + manHour + c0 + s3);
+
+
+// ======= End Task 8 =========
     }
 }
